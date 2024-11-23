@@ -1,0 +1,95 @@
+.divcontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("/images/natural.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.formholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    flex-direction: column;
+    border:1px solid rgb(154, 146, 146);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    border-radius: 7px;
+    padding: 15px;
+}
+.nothingnew{
+    padding:15px;
+}
+.register{
+    display: none;
+}
+.nameholder{
+    display: flex;
+    flex-direction:row;
+    gap:24px;
+}
+.gstholder{
+    display: flex;
+    gap:7px;
+    flex-direction: row;
+}
+.arrival{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.golden{
+    display: flex;
+    gap:30px;
+    flex-direction: row;
+}
+.holding{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.hallo{
+    outline: none;
+    border-radius: 7px;
+    border: none;
+}
+.name{
+    padding:5px;
+}
+.email{
+    padding: 5px;
+}
+.company{
+    padding: 5px;
+}
+.hallo:focus{
+    border: 2.1px solid #0078D7;
+}
+.ptag{
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+}
+.ptag1{
+    padding-bottom: 20px;
+}
+.paynow{
+    width:150px;
+    border: none;
+    background-color: #0078D7;
+    color:white;
+    padding: 6px;
+}
+.paynow:hover{
+    background-color: #0976c9;
+}
+.arrival{
+    padding-left: 30px;
+    padding-right: 30px;
+    height:25px;
+}

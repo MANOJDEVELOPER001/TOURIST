@@ -1,0 +1,248 @@
+.hotelcontainer{
+    background-color:rgb(18,18,18);
+    color:white;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    cursor: pointer;
+}
+.subcontainer{
+    border-radius:18px;
+    margin-left: -350px;
+    padding-bottom: 30px;
+}
+.largerimage{
+    width: 480px;
+    height:360px;
+}
+.mainsource{
+    width: 480px;
+    height:360px;
+    border-radius: 17px;
+}
+.threeimage{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+}
+.splittedimage{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.subsource1{
+    border-radius: 17px;
+    width: 251.99px;
+    height:160px;
+}
+.subsource2{
+    border-radius: 17px;
+    width: 251.99px;
+    height:160px;
+}
+.hotelsname{
+    font-size: 27px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+.abouthotelp{
+    font-size: 15px;
+    opacity: 0.8;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.discover{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    padding-bottom: 30px;
+}
+.luxary{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 22px;
+    padding-bottom: 16px;
+}
+.dininghall{
+    border-radius: 50%;
+    border:3px solid #dfb775;
+    padding: 6px;
+    height:100px;
+    width:100px;
+}
+.firstone{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+.hotelbestp{
+    margin-top: 32px;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+.amenities{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.amenitiestest{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.am{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+    margin-left: 20px;
+}
+.am1div{
+    background-color:white;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+.amcon1{
+    display: flex;
+    flex-direction: row;
+    gap:7px;
+}
+.sub1{
+    background-color:rgb(33,33,34);
+    margin-top:60px ;
+    border-radius: 17px;
+    padding-bottom: 10px;
+    margin-left: 400px;
+}
+.sub2{
+    margin-left: 30px;
+    padding-right: 20px;
+}
+.animatedcontainer{
+    background-color:rgb(33,33,34);
+    border-radius: 17px;
+    margin-top: 60px;
+    height: 400px;
+    position: fixed;
+    right:0;
+    margin-right: 20px;
+}
+.hotelname{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    opacity: 0.9;
+    padding-bottom: 4px;
+    padding-top: 20px;
+}
+.roomspace{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    opacity: 0.8;
+    padding-bottom: 25px;
+}
+.hotelrules{
+    display: flex;
+    flex-direction: row;
+    gap:3px;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+}
+.ers{
+    margin-top: 4px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    opacity: 0.8;
+    padding-bottom: 25px;
+}
+.hoteltiming{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    opacity: 0.8;
+    padding-bottom: 2px;
+}
+.amount{
+    font-size: 24px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+}
+.amountdiv{
+    display: flex;
+    flex-direction: row;
+    gap:1px;
+}
+.bill{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    opacity: 0.9;
+    padding-bottom: 2px;
+    margin-top: 7px;
+}
+.amountdiv{
+    padding-bottom: 25px;
+}
+.bookingdir{
+    background:linear-gradient(92deg, #53b2fe, #065af3);
+    font-size: 18px;
+    width:171px;
+    color:white;
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: 0 1px 7px 0 #0003;
+    margin-left: 100px;
+}
+.moving{
+    margin-left: 10px;
+}
+
+.propertyphotos{
+    position: absolute;
+    margin-top: -31px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.guestphotos{
+    position:absolute;
+    margin-top: 333px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.roomphotos{
+    position: absolute;
+    margin-top: 131px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+}

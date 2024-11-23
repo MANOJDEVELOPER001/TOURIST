@@ -1,0 +1,36 @@
+<%-include('normal/header.ejs')  %>
+<div class="divcontainer">
+    <div>
+    <p class="ptag ptag1">Hotel Booking</p>
+    </div>
+<form class="formholder" action="submit" method="post">
+    <p class="ptag">Guest Details</p>
+    <div class="nameholder">
+    <input class="name hallo" placeholder="First name" type="text" required>
+    <input class="name hallo" placeholder="Last name" type="text" required>
+    </div>
+    <div class="nameholder">
+    <input class="email hallo" placeholder="Email"  type="email" required>
+    <input class="email hallo" placeholder="Phone number" type="tel" required>
+    </div>
+    <div class="nameholder date">
+        <input class="arrival hallo" placeholder="Arrival date" type="date" required>
+        <input class="arrival hallo" placeholder="Depart date" type="date" required>
+    </div>
+    <div class="gstholder">
+    <p class="ptag">Gst Details</p>
+    <input class="checkbox" type="checkbox">
+    </div>
+    <div class="register" id="registration">
+        <div class="golden">
+        <div class="holding">
+        <input class="company hallo" placeholder="Enter registration no." type="tel" required>
+        </div>
+        <div class="holding">
+        <input class="company hallo" placeholder="Enter Company Name" required>
+        </div>
+        </div>
+    </div>
+    <a href="/submit"><button class="paynow hallo" type="submit">PAY NOW</button></a>
+</form>
+</div>
